@@ -1,3 +1,6 @@
+ do{
+ userName = prompt("Введіть ваше ім'я", "Гравець");} while ( userName == null || userName.trim() === "" );
+document.getElementById('playerName').innerText = userName;
 balanceAnimation();
 let btn = document.querySelector('#btn');
 let balance = 5000;
